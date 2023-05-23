@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+  background-color: rgb(255, 255, 255);
+}
+
+#header-image{
+    position: relative;
+       width: 100vw;
+       height: 100vh;  
+}
+
+.header{
+    position: absolute;
+    margin: 5px;
+    display: flex;
+   margin-left: 60%;
+    margin-top: -50%;
+}
+#p1{
+    margin-left: 40px;
+    font-size: 20px;
+    border: none;
+    color: white;
+    position: absolute;
+    margin-top: -50%;
+}
+#p2,#p3,#p4,#p5{
+    margin: 10px;
+    color: white;
+    height: 50px;
+    font-size: 15px;
+    width: 100px;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+#p2:hover,#p3:hover,#p4:hover,#p5:hover{
+    background-color: white;
+    padding: 12px;
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 2rem;
+    color: black;
+    margin-top: -1%;
+    text-transform: uppercase;
+}
+#creatives{
+    font-size: 4pc;
+    position: absolute;
+    margin-top: -40%;
+    margin-left: 33%;
+    color: white;
+}
+#arrow{
+    width: 30px;
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 50%;
+}
+.top-section{
+   display: grid;
+   grid-template-columns: auto auto;
+}
+.text{
+    width: 50vw;
+    height: 70vh;
+    text-align: center;
+    place-content: center;
+}
+
+#egg{
+    width: 50vw;
+    height: 70vh;
+}
+.top-2{
+   display: grid;
+   grid-template-columns: auto auto;
+}
+#cup{
+    width: 50vw;
+    height: 70vh;
+}
+
+.text2{
+    place-content: center;
+    margin-top: 26vh;
+}
+
+#link{
+    text-decoration: underline 2px solid pink;
+}
+
+.middle{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.cherry{
+    position: relative;   
+    display: grid;
+}
+#cherry-image{
+    width: 50vw;
+    height: 70vh;
+}
+.cherry-text{
+    position: absolute;
+    margin-top: 52vh;
+    margin-left: 14vw;
+    place-content: center;
+   text-align: center;
+}
+.orange{
+    position: relative;
+}
+#orange-image{
+    width: 50vw;
+    height: 70vh;
+}
+.orange-text{
+    position: absolute;
+    text-align: center;
+    margin-top: -20%;
+    margin-left: 14vw;
+}
+#testimonial-text{
+    text-align: center;
+    margin-top: 20vh;
+}
+.testimonials{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+}
+#emily{
+    border: 2px solid white;
+    border-radius: 2rem;
+    height: 50px;
+    width: 50px;
+    margin-left: 9vw;
+}
+#emily-text{
+    margin-top: 5vh;
+    text-align: center;
+}
+#thomas{
+    border: 2px solid white;
+    border-radius: 2rem;
+    height: 50px;
+    width: 50px;
+    margin-left: 9vw;
+}
+#thomas-text{
+    text-align: center;
+    margin-top: 5vh;
+}
+#jennie{
+    border: 2px solid white;
+    border-radius: 2rem;
+    height: 50px;
+    width: 50px;
+    margin-left: 9vw;
+}
+#jennie-text{
+    text-align: center;
+    margin-top: 5vh;
+}
+.bold{
+    font-weight: 900;
+}
+.bottom{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+    margin-top: 10vh;
+}
+#milk-bottle,#oranges,#cones,#sugar{
+    width: 300px;
+    height: 300px;
+}
+.footer{
+    background-color: rgb(101, 207, 207);
+    border: 2px solid rgb(101, 207, 207);
+    height: 200px;
+    width: 110vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#sunnyside{
+    text-align: center;
+    margin-top: 5vh;
+    color: rgb(52, 124, 124);
+}
+.footer-text{
+    display: flex;
+    justify-content: center;
+    color: rgb(52, 124, 124);
+    align-items: center;
+}
+#pp1,#pp2,#pp3{
+    margin: 10px;
+    margin-top: 8vh;
+
+}
+.icons{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+.icons-items{
+    margin: 10px;
+    margin-top: 3vh;
+}
+@media  (max-width: 650px){
+    .top-section{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
